@@ -1,0 +1,8 @@
+main: creeoer.plugins.mystics.main.Mystics
+author: creeoer
+version: 0.2.3
+
+commands:
+   test:
+     description: Mystic commands
+     usage: "§bUsage: /in [give/create/delete/list]"
