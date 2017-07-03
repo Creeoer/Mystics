@@ -39,7 +39,6 @@ public class FireBoulder extends Spell{
         List<Location> locs = ParticleUtil.createCircle(caster.getEyeLocation(), 1, 3);
 
         for(Location loc: locs){
-            Bukkit.broadcastMessage(Integer.toString((int) loc.getX()));
             caster.launchProjectile(Fireball.class, loc.toVector());
         }
     }

@@ -27,7 +27,7 @@ public class Glide extends Spell {
 
        Vector vec = caster.getLocation().getDirection();
        caster.setVelocity(vec.multiply(9));
-       ParticleUtil.createTrail(caster.getLocation(), caster.getLocation().getDirection(),  Effect.FIREWORKS_SPARK);
+       ParticleUtil.createTrail(caster.getLocation(), caster.getLocation().getDirection(),  Effect.SMOKE);
        caster.playSound(caster.getLocation(), Sound.ENTITY_BLAZE_SHOOT,  2, 2);
 
     }

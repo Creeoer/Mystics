@@ -31,7 +31,6 @@ public class SpellBook_Listener implements Listener {
                     Wizard wiz = WizardManager.getInstance().getWizard(e.getWhoClicked().getName());
                     wiz.setCurrentSpell(selectedSpell);
                     wiz.getPlayer().sendMessage(ChatColor.AQUA + "Selected Spell: " + selectedSpell.getName());
-                    wiz.getPlayer().getScoreboard().getObjective("currentSpell").setDisplayName("Current Spell: " + selectedSpell.getName());
                 }
             }
         }
