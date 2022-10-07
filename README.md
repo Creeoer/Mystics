@@ -1,5 +1,4 @@
 # Mystics
-Magicccz
 This is a plugin for a competetion, it's just a demo at most.
 
 How to Use:
